@@ -21,14 +21,16 @@ body{
     flex-direction: column;
     box-shadow: 5px 5px 20px #E5EAF0;
     background-color: #fff;
-    border: solid 1px #E5EAF0;
-    border-radius: 20px;
+    border: solid 1px #FAFAF9;
+    border-radius: 10px;
+}
+.image{
+    padding: 16px 16px 0 16px;
 }
 .image img{
     width: 336px;
     margin: 0;
-    padding: 16px 16px 0 16px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .tag{
     padding: 16px 16px 0 16px;
@@ -51,10 +53,16 @@ body{
 }
 
 .body{
+    padding: 0 20px 0 16px;
+}
+
+.body p{
     font-size: 14px;
-    padding: 0 16px 20px 16px;
+    line-height: 20px;
+    text-wrap: wrap;
     color: #6C727F;
     border-bottom: 1px solid #E5EAF0;
+    padding-bottom: 20px;
 }
 
 .small_text{
