@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    background-color: #F2F5F9;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 416px;
+    margin-top: 130px;
+    background-color: #ffffff;
+    color: #677489;
+    border-radius: 16px;
+}
+
+
+.background-img{
+    width: 100%;
+    z-index: -1;
+    border-radius: 16px 16px;
+}
+
+.overlay{
+    width: 100%;
+    float: left;
+    z-index: 1;
+    position: relative;
+    margin-bottom: -70px;
+    bottom: 69px;
+}
+
+.title{
+    padding: 0 30px;
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #111729;
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: 32px;
+}
+
+.body{
+    padding: 20px 40px 30px 30px;
+    border-bottom: 1px solid #F2F5F9;
+    font-weight: 300;
+}
+
+.small_text{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 30px;
+}
+
+.icon img{
+    width: 36px;
+    height: 36px;
+    border: 3px solid #F2F5F9;
+    border-radius: 100%;
+}
+
+.author{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 16px;
+}
+
+.name{
+    color: #111729;
+}
+.description{
+    font-size: 12px; 
+    font-weight: 300;
+}
